@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<style>
+		body{
+			font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin: 0;
+			display: flex;
+			
+		}
+
+		.speakers{
+			background-color: #293f50;
+			width: 100%;
+			/*height: 180px;*/
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover{
+			color: #a9b2b9;
+		}
+
+		.total{
+			display: flex;
+			line-height: 25px;
+			/*height: 300px;*/
+		}
+
+		/*.main{
+			margin-left: 600px;
+			margin-top: 70px;
+		}*/
+
+		.lists{
+			display: flex;
+			list-style: none;
+		}
+
+		.link{
+			padding-right: 20px;
+		}
+
+		.tag{
+			margin-left: 350px;
+			margin-top: 70px;
+			color: #a9b2b9;
+			font-size: 19px;
+		}
+
+		.lists{
+			margin-left: 154px;
+			font-size: 15px;
+		}
+
+		.one{
+			margin-top: 42px;
+			margin-left: 230px;
+			font-size: 50px;
+			line-height: 50px;
+		}
+
+		.middle{
+			background-color: #cbe2c1;
+			height: 220px;
+			text-align: center;
+			/*margin-top: 80px;*/
+			padding-top: 20px;
+		}
+
+		.mid_h{
+			font-size: 35px;
+			color: #293f50;
+		}	
+
+		.mid{
+			font-size: 22px;
+			margin-left: 200px;
+			margin-right: 200px;
+			align-items: center;;
+			color: #a9b2b9;
+		}	
+
+		.introduction{
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			/*margin-left: 230px;*/
+		}	
+
+		.intro{
+			width: 900px;
+			/*text-align: center;*/
+			margin-left: 230px;
+			margin-top: 60px;
+			display: inline-flex;
+			/*margin-right: 20px;*/
+		}	
+
+		.name{
+			color: #293f50;
+			font-size: 25px;
+		}
+
+		.man{
+			margin-right: 30px;
+			line-height: 20px;
+		}
+
+		.kam{
+			color:  #a9b2b9;
+		}
+
+		.det{
+			color: #293f50;
+		}
+
+		.about{
+			color: #a9b2b9;
+		}
+
+		.about_det{
+			color: #293f50;
+		}
+
+		.col1{
+			border: 1px solid #dfe2e5;
+			height: 200px;
+			width: 250px;
+			margin-top: 70px;
+			align-items: center;
+			/*border-width: 250px;*/
+			/*margin-top: 80px;*/
+		}
+
+		.img{
+			shape-outside: circle(3);
+		}
+
+		.det_l{
+			color: #a9b2b9;
+			/*text-align: center;*/
+			/*justify-content: center;*/
+			/*align-items: center;*/
+
+		}
+
+		.det_l: hover{
+			color: #293f50;
+		}
+
+		.li{
+			list-style: none;
+			padding-left: 30px;
+		}
+
+		.li: hover{
+			color: #293f50;
+		}
+
+		.img{
+				 width: 130px;
+                 height: 130px;
+                 /*background: red;*/
+                 border-radius: 50%;
+                 /*align-items: center;*/
+                 justify-content: center;
+                 margin-left: 20px;
+        }
+
+        .low{
+			margin-left: 400px;
+			/*margin-top: 10px;*/
+		}
+
+		.footer{
+			display: flex;
+			height: 130px;
+			color: #a9b2b9;
+		}
+
+		.small{
+			margin-top: 50px;
+			margin-left: 130px;
+		}
+
+		#fool{
+			margin-top: 70px;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div class="speakers">
+	    <div class="hp">
+	    	<div class="total">
+	            <div class="head">
+		            <p class="one"><a href="home.html">STYLES<br>CONFERENCE</a></p>
+	            </div>
+
+	            <div class="main">
+	  	           <p class="tag" id="tag">August 24–26th — Chicago, IL</p>
+	  	           <ul class="lists">
+	  		          <li class="link"><a href="home.html">HOME</a></li>
+	  		          <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		          <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		          <li class="link"><a href="venue.html">VENUE</a></li>
+	  		          <li class="link"><a href="register.html">REGISTER</a></li>
+	  	            </ul>
+	            </div>
+	        </div>
+
+	        <div class="middle">
+	    	    <p class="mid_h">Speakers</p>
+	    	    <p class="mid">We’re happy to welcome over twenty speakers to present on the industry’s latest technologies. Prepare for an inspiration extravaganza.</p>
+	        </div>
+	    </div>
+
+	    <div class="introduction">
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">Aaron Irizarry</p>
+	    		    <p class="kam">DESIGNING A CULTURE OF DESIGN</p>
+	    		    <p class="det">Workplace culture doesn’t start with beanbags, foosball tables, or a beer fridge, and it doesn’t end with neckties, PCs, or big corporations. It’s the unwritten rules, behavior, beliefs, and the motivations that enable good work to get done, or it’s what stifles a workforce. For design to be most effective and for designers to feel valued, we need to work in a culture that embraces design and allows it to succeed.<br><br>
+
+                    In Aaron’s session he will explore how to recognize the traits of organizations that *get* design, both large and small. He will share what those teams, departments, and companies have that others don’t, and more importantly, how to begin to change your own workplace’s culture. Once you’ve worked within a culture of design it’s almost impossible to imagine yourself anywhere else.</p><br><br>
+                    <p class="about">ABOUT AARON</p>
+                    <p class="about_det">Aaron Irizarry is a Senior Product Designer for Nasdaq OMX, a lover of heavy metal, a foodie, and a master of BBQ arts. You can find some of his thoughts and presentations on the conversation surrounding design over at discussingdesign.com.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/aaron-irizarry.jpg" alt="Aaron Irizarry" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/aaroni" class="det_l">@aaroni</a></li>
+	    				<li><a href="http://www.thisisaaronslife.com/" class="det_l">thisisaaronslife.com</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">Adam Connor</p>
+	    		    <p class="kam">LIGHTS! CAMERA! INTERACTION! DESIGN INSPIRATION FROM FILMMAKERS</p>
+	    		    <p class="det">Films succeed in evoking responses and engaging audiences only with a combination of well-written narrative and effective storytelling technique. It’s the filmmaker’s job to put this together. To do so they’ve developed processes, tools and techniques that allow them to focus attention, emphasize information, foreshadow and produce the many elements that together comprise a well-told story.<br><br>
+
+                    With this workshop, we’ll revisit the topic of using stories in design and expand on the technical aspects used in film to communicate. We’ll look at some tools used in film, such as cinematic patterns, beat sheets, and storyboards. We’ll consider why they’re used and how we might look to them for inspiration.</p><br><br>
+                    <p class="about">ABOUT ADAM</p>
+                    <p class="about_det">Adam Connor is a designer, illustrator and speaker passionate about collaboration, communication, creativity and storytelling. As an Experience Design Director with Mad*Pow, Adam combines 10+ years of experience in interaction and experience design with a background in computer science, film, and animation to create effective and easy-to-use digital products and services. He believes that no matter how utilitarian a tool is, at the core of its creation lies a story; uncovering that story is key to its success. Occasionally, he shares his perspectives on design at adamconnor.com and discussingdesign.com.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/adam-connor.jpg" alt="Adam Connor" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/adamconnor" class="det_l">@adamconnor</a></li>
+	    				<li><a href="http://adamconnor.com/" class="det_l">adamconnor.com</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">AJ Self</p>
+	    		    <p class="kam">(YOU SHOULD BE) TESTING YOUR JAVASCRIPT</p>
+	    		    <p class="det">JavaScript applications frequently utilize battle-tested libraries like jQuery, AngularJS, Backbone.js and more, but how can we be sure that our code is ready for production? This talk will share tips on how writing tests can be written easily and quickly and how to remove buggy code through testing.</p><br><br>
+                    <p class="about">ABOUT AJ</p>
+                    <p class="about_det">AJ is a software engineer specializing in JavaScript working at Belly in Chicago. Lately he has been writing applications with AngularJS and loving it. When not coding he is out loving the outdoors with his dog, Sunshine.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/aj-self.jpg" alt="AJ Self" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/ajself" class="det_l">@ajself</a></li>
+	    				<li><a href="http://www.ajself.com/" class="det_l">ajself.com</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">Arman Ghosh</p>
+	    		    <p class="kam">DESIGNING DEALS: HOW GOOD DESIGN DRIVES SALES</p>
+	    		    <p class="det">Perception influences decisions, especially when it comes to selling products and services. Learn why before you even start sales conversations; good, thoughtful design and presentation will define you and your ability to close deals.</p><br><br>
+                    <p class="about">ABOUT ARMAN</p>
+                    <p class="about_det">Arman is an entrepreneur who has his roots planted in building aggressive sales and revenue-generating teams. Having built out national sales and operations teams in the B2B and consumer spaces, his focus has been driving aggressive growth for technology-based companies. He has an extensive operating background and has built a career disrupting sales processes and approaches with companies doing the same in their respective technology spaces.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/arman-ghosh.jpg" alt="Arman Ghosh" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/armanghosh" class="det_l">@armanghosh</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">Bermon Painter</p>
+	    		    <p class="kam">DEATH TO WIREFRAMES: LONG LIVE RAPID PROTOTYPING</p>
+	    		    <p class="det">Static wireframes are a drag on the whole design process. Prototyping makes things a little better by allowing you to stitch together static wireframes or mockups while adding basic interactions. Rapid prototyping with HTML, CSS, and JavaScript is even better and faster; it increases collaboration and improves the iteration process. Kill your wireframes. Long live rapid prototyping.</p><br><br>
+                    <p class="about">ABOUT BERMON</p>
+                    <p class="about_det">Bermon is the organizer of various community groups for user experience designers and front-end developers, and the organizer of Blend Conference, a three-day, multi-track event for user experience strategists, designers and developers. He also leads the user experience team for Cardinal Solutions’ Charlotte office, where he consults with large enterprise clients on interesting problems across user experience, design and front-end development.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/bermon-painter.jpg" alt="Bermon Painter" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/bermonpainter" class="det_l">@bermonpainter</a></li>
+	    				<li><a href="http://bermonpainter.com/" class="det_l">bermonpainter.com</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+
+	        <div class="intro">
+	    	    <div class="man" id="aaron">
+	    		    <p class="name">Shay Howe</p>
+	    		    <p class="kam">LESS IS MORE: HOW CONSTRAINTS CULTIVATE GROWTH</p>
+	    		    <p class="det">By setting constraints, we force ourselves to be more productive. They help us make decisions, creating focus around the problem we are trying to solve. They improve our consistency, which provides a better experience for our users. And they help us grow, a valuable asset in times of innovation.</p><br><br>
+                    <p class="about">ABOUT SHAY</p>
+                    <p class="about_det">As a designer and front-end developer, Shay Howe has a passion for solving problems while building creative and intuitive products. Shay specializes in product design and interface development, specialties which he regularly writes and speaks about.</p>
+	    	    </div>
+	    	    <aside class="col1"> 
+	    		    <div class="speaker_info">
+	    			    <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/speakers/shay-howe.jpg" alt="Shay Howe" class="img">
+	    			    <ul class="li">
+	    				<li><a href="https://twitter.com/shayhowe" class="det_l">@shayhowe</a></li>
+	    				<li><a href="http://learn.shayhowe.com/" class="det_l">learn.shayhowe.com</a></li>
+	    			    </ul>
+	    		    </div>
+	    	    </aside>
+	        </div>
+	    </div>
+
+	    <div class="footer">
+	    	<div class="small">
+	    		<p class="foot" id="footy">&copy;  Styles Conference</p>
+	    	</div>
+	    	<div class="low">
+	    		 <ul class="lists" id="fool">
+	  		        <li class="link"><a href="home.html">HOME</a></li>
+	  		        <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		        <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		        <li class="link"><a href="venue.html">VENUE</a></li>
+	  		        <li class="link"><a href="register.html">REGISTER</a></li>
+	  	        </ul>
+	    	</div>
+	    </div>
+	</div>    
+</body>
+</html>

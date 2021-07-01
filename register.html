@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<style>
+		body{
+			font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin: 0;
+			display: flex;
+			
+		}
+
+		.hp{
+			background-color: #293f50;
+			width: 100%;
+			/*height: 180px;*/
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover{
+			color: #a9b2b9;
+		}
+
+		.total{
+			display: flex;
+			line-height: 25px;
+			/*height: 300px;*/
+		}
+
+		.lists{
+			display: flex;
+			list-style: none;
+		}
+
+		.link{
+			padding-right: 20px;
+		}
+
+		.tag{
+			margin-left: 350px;
+			margin-top: 70px;
+			color: #a9b2b9;
+			font-size: 19px;
+		}
+
+		.lists{
+			margin-left: 154px;
+			font-size: 15px;
+		}
+
+		.one{
+			margin-top: 42px;
+			margin-left: 230px;
+			font-size: 50px;
+			line-height: 50px;
+		}
+
+		.middle{
+			background-color: #cbe2c1;
+			height: 220px;
+			text-align: center;
+			/*margin-top: 80px;*/
+			padding-top: 20px;
+		}
+
+		.mid_h{
+			font-size: 35px;
+			color: #293f50;
+		}	
+
+		.mid{
+			font-size: 22px;
+			margin-left: 200px;
+			margin-right: 200px;
+			align-items: center;;
+			color: #a9b2b9;
+		}
+
+		.container{
+			display: flex;
+			margin-left: 200px;
+			/*margin-right: 200px;*/
+		}
+
+		.det{
+			/*padding-right: 60px;*/
+			margin-top: 40px;
+			width: 600px;
+
+		}
+
+		.h2{
+			font-size: 25px;
+			color: #648880;
+			/*font-weight: 1px;*/
+		}
+
+		.cost{
+			color: #a9b2b9;
+			font-size: 15px;
+
+		}
+
+		.para{
+			font-size: 17px;
+			color: #293f50;
+			/*font-weight: 1px;*/
+		}
+
+		.h3{
+			color: #648880;
+
+		}
+
+		.point{
+			color: #293f50;
+
+		}
+
+		.form{
+			display: inline-grid;
+			margin-top: 60px;
+			/*border-radius: 5px;*/
+		}
+
+/*
+		.fieldset{
+			border: none;
+			border-width: 0px;
+
+		}
+*/
+		.label{
+			font-size: 18px;
+			display: inline-grid;
+			/*line-height: 2px;*/
+			/*margin-bottom: 15px;*/
+			padding-bottom: 25px;
+			color: #648880;
+			/*border-radius: 5px;*/
+		}
+
+		.spa{
+			height: 35px;
+			min-width: 300px;
+			border-radius: 5px;
+			border: 1px solid #a9b2b9;
+			font-size: 18px;
+			padding-left: 10px;
+		}
+
+		select{
+			min-width: 100px;
+			border-radius: 5px;
+			border: 1px solid #a9b2b9;
+		}
+
+		textarea{
+			height: 70px;
+			border-radius: 5px;
+			border: 1px solid #a9b2b9;
+		}
+
+		.sel{
+			height: 30px;
+			max-width: 75px;
+			padding-left: 10px;
+		}
+
+		.link{
+			/*list-style: square;*/
+		}
+
+		.btn{
+			height: 40px;
+			max-width: 160px;
+			background-color: #648880;
+			border: none;
+			color: white;
+			font-size: 17px;
+			border-radius: 5px;
+			/*padding-bottom: 60px;*/
+		}
+
+		.btn:hover{
+			background-color:  #a9b2b9;
+		}
+
+		.low{
+			margin-left: 400px;
+			/*margin-top: 10px;*/
+		}
+
+		.footer{
+			display: flex;
+			height: 130px;
+			color: #a9b2b9;
+			background-color: #293f50;
+			margin-top: 60px;
+		}
+
+		.small{
+			margin-top: 50px;
+			margin-left: 130px;
+		}
+
+		#fool{
+			margin-top: 70px;
+			font-size: 12px;
+		}
+
+		#time{
+			border-bottom: none;
+		}
+
+		#times{
+			border-bottom: none;
+		}
+
+		.tds{
+			/*border-bottom: none;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="speakers">
+	    <div class="hp">
+	    	<div class="total">
+	            <div class="head">
+		            <p class="one"><a href="home.html">STYLES<br>CONFERENCE</a></p>
+	            </div>
+
+	            <div class="main">
+	  	           <p class="tag" id="tag">August 24–26th — Chicago, IL</p>
+	  	           <ul class="lists">
+	  		          <li class="link"><a href="home.html">HOME</a></li>
+	  		          <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		          <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		          <li class="link"><a href="venue.html">VENUE</a></li>
+	  		          <li class="link"><a href="register.html">REGISTER</a></li>
+	  	            </ul>
+	            </div>
+	        </div>
+
+	        <div class="middle">
+	    	    <p class="mid_h">Register</p>
+	    	    <p class="mid">Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.</p>
+	        </div>
+	    </div>
+
+	    <div class="container">
+	    	<div class="det">
+	    		<h2 class="h2">Purchase a Conference Pass</h2>
+	    		<p class="cost">$99 PER PASS</p>
+	    		<p class="para">Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased w mithin the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for your purchase. See you soon!</p>
+	    		<h3 class="h3">Why Attend?</h3>
+	    		<ul class="point">
+	    			<li class="li">Over twenty world-class speakers</li>
+	    			<li class="li">One full day of workshops and two full days of presentations</li>
+	    			<li class="li">Hosted at The Chicago Theatre, a historical landmark</li>
+	    			<li class="li">August in Chicago is simply amazing</li>
+	    		</ul>
+	    	</div>
+
+	    	<div class="form">
+	    	<!-- <form action="#" method="post" class="form"> -->
+	    		<!-- <fieldset class="register-group" class="fieldset"> -->
+	    			<label class="label">
+	    				Name
+	    				<input class="spa" type="text" name="name" placeholder="Full name" required>
+	    			</label>
+
+	    			<label class="label">
+	    				Email
+	    				<input class="spa" type="Email" name="Email" placeholder="Email Address" required>
+	    			</label>
+
+	    			<label class="label">
+	    				Number of Passes
+	    				<select class="sel" name="quantity" required>
+	    					<option value="1" selected>1</option>
+	    					<option value="2">2</option>
+	    					<option value="3">3</option>
+	    					<option value="4">4</option>
+	    					<option value="5">5</option>
+	    				</select>
+	    			</label>
+
+	    			<label class="label">
+	    				Comments
+	    				<textarea name="Comments" class="comment"></textarea>
+	    			</label>
+	    		<!-- </fieldset> -->
+	    		<input type="submit" name="submit" value="purchase" class="btn">
+	    	<!-- </form> -->
+	    </div>
+	    </div>
+
+	     <div class="footer">
+	    	<div class="small">
+	    		<p class="foot" id="footy">&copy;  Styles Conference</p>
+	    	</div>
+	    	<div class="low">
+	    		 <ul class="lists" id="fool">
+	  		        <li class="link"><a href="home.html">HOME</a></li>
+	  		        <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		        <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		        <li class="link"><a href="venue.html">VENUE</a></li>
+	  		        <li class="link"><a href="register.html">REGISTER</a></li>
+	  	        </ul>
+	    	</div>
+	    </div>
+	</div>
+
+
+</body>
+</html>

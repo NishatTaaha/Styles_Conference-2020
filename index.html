@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<style>
+		body{
+			font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin: 0;
+			display: flex;
+			background-color: #293f50;
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover{
+			color: #a9b2b9;
+		}
+
+		.total{
+			display: flex;
+			line-height: 25px;
+		}
+
+		/*.main{
+			margin-left: 600px;
+			margin-top: 70px;
+		}*/
+
+		.lists{
+			display: flex;
+			list-style: none;
+		}
+
+		.link{
+			padding-right: 20px;
+		}
+
+		.tag{
+			margin-left: 350px;
+			margin-top: 70px;
+			color: #a9b2b9;
+			font-size: 19px;
+		}
+
+		.lists{
+			margin-left: 154px;
+			font-size: 15px;
+		}
+
+		.one{
+			margin-top: 50px;
+			margin-left: 230px;
+			font-size: 50px;
+			line-height: 60px;
+		}
+
+		.container{
+			line-height: 30px;
+		}
+
+		.first{
+			font-size: 38px;
+			margin-left: 330px;
+			color: #a9b2b9;
+		}
+
+		.second{
+			font-size: 25px;
+			padding-right: 170px;
+			padding-left: 170px;
+			text-align: center; 
+			color: white;
+		}
+
+		.third{
+			margin-left: 600px;
+			height: 70px;
+			width: 190px;
+			background-color: inherit;
+			border-color: white;
+			color: white;
+			border-radius: 6px;
+			border: 1px 1px 1px 1px;
+			font-size: 15px;
+		}
+
+		.third:hover{
+			background-color: white;
+			color: #a9b2b9;
+		}
+
+		.middle{
+			margin-top: 80px;		
+			background-color: white;
+		}
+
+		.grid{
+			display: inline-flex;
+			margin-top: 50px;
+			margin-left: 190px;
+		}
+
+
+		.pictures{
+			height: 200px;
+			width: 270px;
+			border-radius: 5px;
+		}
+
+		.para{
+			width: 270px;
+			color: #648880;
+		}
+
+		.ori_1, .ori_2, .ori_3{
+			margin: 20px; 
+		}
+
+		.que_1{
+			margin-left: 20px;
+		}
+
+		.que_2{
+			margin-left: 20px;
+		}
+
+		.que_3{
+			margin-left: 20px;
+		}
+
+		#que{
+			/*font-weight: 20px;*/
+			color: #648880;
+		}
+
+		.head_col{
+			color: #648880; 
+		}
+
+		.pics: hover{
+			color: #a9b2b9;
+		}
+
+		.low{
+			margin-left: 400px;
+			/*margin-top: 10px;*/
+		}
+
+		.footer{
+			display: flex;
+			height: 130px;
+			color: #a9b2b9;
+		}
+
+		.small{
+			margin-top: 50px;
+			margin-left: 130px;
+		}
+
+		#fool{
+			margin-top: 70px;
+			font-size: 12px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="home">
+	    <div class="total">
+	        <div class="head">
+		        <p class="one"><a href="home.html">STYLES<br>CONFERENCE</a></p>
+	        </div>
+
+	        <div class="main">
+	  	       <p class="tag" id="tag">August 24–26th — Chicago, IL</p>
+	  	       <ul class="lists">
+	  		      <li class="link"><a href="home.html">HOME</a></li>
+	  		      <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		      <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		      <li class="link"><a href="venue.html">VENUE</a></li>
+	  		      <li class="link"><a href="register.html">REGISTER</a></li>
+	  	        </ul>
+	        </div>
+	    </div>
+
+	  <div class="container">
+	  	<p class="first">Dedicated to the Craft of Building Websites</p>
+	  	<p class="second">Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest tech logies. Join us this August!</p>
+	  	<button class="third">REGISTER NOW</button>
+	  </div>
+
+
+	    <div class="middle">
+		    <div class="grid">
+			    <div class="point">
+				    <p class="que_1" id="que">SPEAKERS</p>
+				    <div class="ori_1">
+				        <a href="speakers.html" class="pics">
+					        <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/speakers.jpg" alt="Speakers" class="pictures">
+					        <p class="head_col">World-Class Speakers</p>
+				        </a>
+				        <p class="para">Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+				    </div>
+			    </div>
+
+			    <div class="point">
+				    <p class="que_2" id="que">SCHEDULE</p>
+				    <div class="ori_2">
+				            <a href="schedule.html" class="pics">
+					        <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/schedule.jpg" alt="Schedule" class="pictures">
+					        <p class="head_col">Three Inspiring Days</p>
+				        </a>
+				         <p class="para">Enjoy three inspiring and action-packed days of tals, gatherings, and all-around good times.</p>
+				     </div>
+			    </div>
+
+			    <div class="point">
+				    <p class="que_3" id="que">VENUE</p>
+				    <div class="ori_3">
+				        <a href="venue.html" class="pics">
+					        <img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/venue.jpg" alt="Venue" class="pictures">
+					        <p class="head_col">The Chicago Theatre</p>
+				        </a>
+				        <p class="para">Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+
+	    <div class="footer">
+	    	<div class="small">
+	    		<p class="foot" id="footy">&copy;  Styles Conference</p>
+	    	</div>
+	    	<div class="low">
+	    		 <ul class="lists" id="fool">
+	  		        <li class="link"><a href="home.html">HOME</a></li>
+	  		        <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		        <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		        <li class="link"><a href="venue.html">VENUE</a></li>
+	  		        <li class="link"><a href="register.html">REGISTER</a></li>
+	  	        </ul>
+	    	</div>
+	    </div>
+    </div>
+</body>
+</html

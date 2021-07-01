@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<!-- color: #648880
+	background: #cbe2c1;
+	 #a1d3b0
+	#dfe2e5
+	 #c6c9cc
+	 #a9b2b9;
+	  #888; -->
+	<style>
+		body{
+			font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			margin: 0;
+			display: flex;
+			
+		}
+
+		.speakers{
+			background-color: #293f50;
+			width: 100%;
+			/*height: 180px;*/
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover{
+			color: #a9b2b9;
+		}
+
+		.total{
+			display: flex;
+			line-height: 25px;
+			/*height: 300px;*/
+		}
+
+		.lists{
+			display: flex;
+			list-style: none;
+		}
+
+		.link{
+			padding-right: 20px;
+		}
+
+		.tag{
+			margin-left: 350px;
+			margin-top: 70px;
+			color: #a9b2b9;
+			font-size: 19px;
+		}
+
+		.lists{
+			margin-left: 154px;
+			font-size: 15px;
+		}
+
+		.one{
+			margin-top: 42px;
+			margin-left: 230px;
+			font-size: 50px;
+			line-height: 50px;
+		}
+
+		.middle{
+			background-color: #cbe2c1;
+			height: 220px;
+			text-align: center;
+			/*margin-top: 80px;*/
+			padding-top: 20px;
+		}
+
+		.mid_h{
+			font-size: 35px;
+			color: #293f50;
+		}	
+
+		.mid{
+			font-size: 22px;
+			margin-left: 200px;
+			margin-right: 200px;
+			align-items: center;;
+			color: #a9b2b9;
+		}
+
+		.container{
+			background-color: white;
+			/*margin-top: 20px;*/
+			padding-top: 40px;
+		}
+
+		.tables{
+			/*align-items: center;*/
+			/*justify-content: center;*/
+			margin-left: 230px;
+			margin-right: 230px;
+			/*border-collapse: collapse;*/
+			/*margin-top: 20px;*/
+			border: none;
+		}
+
+	/*	.anc{
+			color: #a9b2b9;
+		}
+
+		.anc: hover{
+			color: #c6c9cc;
+		}*/
+
+		.th{
+			color: #648880;
+			padding-right: 40px;
+			font-size: 25px;
+			/*border-bottom: 1px;*/
+			border-bottom: none;
+		}
+			
+
+		.td{
+			color: #a9b2b9;
+			/*line-height: 25px;*/
+			padding-right: 40px;
+			/*line-height: 20px;*/
+			/*line-height: 25px;*/
+			border-bottom: 1px solid #a9b2b9;
+			/*border-width: 30px;*/
+			/*border-left-width: 30px;*/
+
+			line-height: 25px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+		}
+
+		.tr{
+			/*line-height: 50px;*/
+			/*margin-top: 50px;*/
+			line-height: 70px;
+			/*padding-bottom: 25px;*/
+			/*display: flex;*/
+			/*display: inline-block;*/
+		}
+
+		.h3{
+			color: #648880;
+		}
+
+		.pa{
+			color: #a9b2b9;
+		}
+
+
+        .low{
+			margin-left: 400px;
+			/*margin-top: 10px;*/
+		}
+
+		.footer{
+			display: flex;
+			height: 130px;
+			color: #a9b2b9;
+		}
+
+		.small{
+			margin-top: 50px;
+			margin-left: 130px;
+		}
+
+		#fool{
+			margin-top: 70px;
+			font-size: 12px;
+		}
+
+		#time{
+			border-bottom: none;
+		}
+
+		#times{
+			border-bottom: none;
+		}
+
+		.tds{
+			/*border-bottom: none;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="speakers">
+	    <div class="hp">
+	    	<div class="total">
+	            <div class="head">
+		            <p class="one"><a href="home.html">STYLES<br>CONFERENCE</a></p>
+	            </div>
+
+	            <div class="main">
+	  	           <p class="tag" id="tag">August 24–26th — Chicago, IL</p>
+	  	           <ul class="lists">
+	  		          <li class="link"><a href="home.html">HOME</a></li>
+	  		          <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		          <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		          <li class="link"><a href="venue.html">VENUE</a></li>
+	  		          <li class="link"><a href="register.html">REGISTER</a></li>
+	  	            </ul>
+	            </div>
+	        </div>
+
+	        <div class="middle">
+	    	    <p class="mid_h">Schedule</p>
+	    	    <p class="mid">The conference opens with amazing workshops and continues with two days of incredible talks and keynotes, all of which are facilitated by industry-leading experts.</p>
+	        </div>
+	    </div>
+
+	    <div class="container">
+	    	<table class="tables">
+	    		<thead class="thead">
+	    			<tr class="tr">
+	    				<th class="th">Workshops</th>
+	    				<td class="td"> August 24th</td>
+	    				<td class="td"></td>
+	    			</tr>
+	    		</thead>
+                <tbody>
+	    			<tr class="tr">
+	    				<td class="td" id="time">8:30 AM</td>
+	    				<td class="td">Registration</td>
+	    				<td class="td"></td>
+	    			</tr>
+	    			<tr class="tr">
+	    				<td class="td" id="time">9:00 AM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#adam-connor" class="anc">
+	    						<h3 class="h3">Adam Connor</h3>
+	    						<p class="pa">Lights! Camera! Interaction! Design Inspiration from Filmmakers</p>
+	    					</a>
+	    				</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#jennifer-jones" class="anc">
+	    						<h3 class="h3">Jennifer Jones</h3>
+	    						<p class="pa">What Designers Can Learn from Parenting</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+	    			<tr class="tr">
+	    				<td class="td" id="time">12:30 PM</td>
+	    				<td class="td">Lunch</td>
+	    				<td class="td"></td>
+	    			</tr>
+	    			<tr class="tr">
+	    				<td class="td" id="times">2:00 PM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#tessa-harmon" class="anc">
+	    						<h3 class="h3">Tessa Harmon</h3>
+	    						<p class="pa">Crafty Coding: Generating Knitting Patterns</p>
+	    					</a>
+	    				</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#russ-unger" class="anc">
+	    					    <h3 class="h3">Russ Unger</h3>
+	    					    <p class="pa">From Muppets to Mastery: Core UX Principles from Mr. Jim Henson</p>
+	    				    </a>
+	    				</td>
+	    			</tr>
+	    		</tbody>
+	    	</table>
+
+
+	    	<table class="tables">
+	    		<thead class="thead">
+	    			<th class="th">Conference</th>
+	    			<td class="td">August 25th</td>
+	    			<td class="td"></td>
+	    		</thead>
+	    		<tbody>
+	    			<tr class="tr">
+	    				<td class="td" id="time">8:30 AM</td>
+	    				<td class="td">Registration</td>
+	    				<td class="td"></td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">9:00 AM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#vitaly-friedman" class="anc">
+	    						<h3 class="h3">Vitaly Friedman</h3>
+	    						<p class="pa">Responsive Web Design: Clever Tips and Techniques</p>
+	    					</a>
+	    				</td>
+	    				<td class="td"></td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">10:00 AM</td>
+	    				<td class="td">Morning Break</td>
+	    				<td class="td"></td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">10:30 AM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#shay-howe" class="anc">
+	    						<h3 class="h3">Shay Howe</h3>
+	    						<p class="pa">Less is More: How Constraints Cultivate Growth</p>
+	    					</a>
+	    				</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#jenn-downs" class="anc">
+	    						<h3 class="h3">Jenn Downs</h3>
+	    						<p class="pa">What’s Stopping You?</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">11:30 AM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#carolyn-chandler" class="anc">
+	    						<h3 class="h3">Carolyn Chandler</h3>
+	    						<p class="pa">The Business of Play</p>
+	    					</a>
+	    				</td>
+	    				<td class="td"><a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#carolyn-chandler" class="anc">
+	    					    <h3 class="h3">Chris Mills</h3>
+	    					    <p class="pa">Heavy Metal Coding</p>
+	    				    </a>
+	    			    </td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">12:30 PM</td>
+	    				<td class="td">Lunch</td>
+	    				<td class="td"></td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">2:00 PM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#carolyn-chandler" class="anc">
+	    					    <h3 class="h3">Zoe Mickley Gillenwater</h3>
+	    					    <p class="pa">Leveling Up with Flexbox</p>
+	    				    </a>
+	    			    </td>
+	    			    <td class="td">
+	    			    	<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#carolyn-chandler" class="anc">
+	    			    		<h3 class="h3">Darby Frey</h3>
+	    			    		<p class="pa">Building a Mobile Layout</p>
+	    			    	</a>
+	    			    </td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">3:00 PM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#shay-howe" class="anc">
+	    						<h3 class="h3">Brad Smith</h3>
+	    						<p class="pa">What Designers and Strategists Can Learn from Dick Fosbury</p>
+	    					</a>
+	    				</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#shay-howe" class="anc">
+	    						<h3 class="h3">Erica Decker</h3>
+	    						<p class="pa">What Disney Can Teach You about User Experience Design</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="time">4:00 PM</td>
+	    				<td class="td">Afternoon Break</td>
+	    				<td class="td"></td>
+	    			</tr>
+
+	    			<tr class="tr">
+	    				<td class="td" id="times">4:30 PM</td>
+	    				<td class="td">
+	    					<a href="https://jolly-kalam-23776e.netlify.app/styledconferences/speakers.html#shay-howe" class="anc">
+	    						<h3 class="h3">Estelle Weyl</h3>
+	    						<p class="pa">Select This!</p>
+	    					</a>
+	    				</td>
+	    				<td class="td"></td>
+	    			</tr>
+	    		</tbody>
+	    	</table>
+	    </div>
+
+
+	    <div class="footer">
+	    	<div class="small">
+	    		<p class="foot" id="footy">&copy;  Styles Conference</p>
+	    	</div>
+	    	<div class="low">
+	    		 <ul class="lists" id="fool">
+	  		        <li class="link"><a href="home.html">HOME</a></li>
+	  		        <li class="link"><a href="speakers.html">SPEAKERS</a></li>
+	  		        <li class="link"><a href="schedule.html">SCHEDULE</a></li>
+	  		        <li class="link"><a href="venue.html">VENUE</a></li>
+	  		        <li class="link"><a href="register.html">REGISTER</a></li>
+	  	        </ul>
+	    	</div>
+	    </div>
+	</div>
+</body>
+</html>
